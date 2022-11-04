@@ -1,0 +1,108 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.135rem; 
+} 
+ header, main{
+ padding: 2rem; 
+}
+
+@media (min-width: 750px) {
+   main{padding-inline: 10rem; } 
+}
+
+.basmala{
+    color: green; 
+    font-weight: 600; 
+    font-size: 2rem; 
+    text-align: center;
+}
+
+nav p{
+    font-weight: 600; 
+    font-size: 1.2rem; 
+    margin-top: 2rem; 
+}
+
+nav ul{
+    list-style-type: upper-roman;
+    margin: .5rem 0 0; 
+    font-size: 1.2rem; 
+    font-weight: 600; 
+}
+
+a{
+    color: green; 
+}
+
+.pageTitle{
+    text-align: center; 
+    margin-bottom: 3rem; 
+}
+
+.pageTitle h1{
+    font-size: 2.5rem; 
+}
+
+.pageTitle p{
+    font-size: 1.2rem; 
+    color: green; 
+}
+
+.chapterTitle{
+    font-size: 2rem;  
+    margin-bottom: 2rem; 
+}
+.term{
+    font-weight: 600; 
+    color: green; 
+}
+
+article{
+    border: solid 2px green; 
+    border-radius: 10px; 
+   padding: 2rem; 
+   margin-bottom: 2rem; 
+}
+article a{
+    font-size: .9rem; 
+}
+article h1{
+    font-size: 1.3rem; 
+}
+
+article .content{
+    margin-left: 2rem; 
+}
+
+ol ul li:first-child{
+    margin-top: .3rem; 
+}
+ol ul li:last-child{
+    margin-bottom: 1rem; 
+}
+
+.graph button{
+    cursor: pointer; 
+    background-color: green;
+    color: white; 
+    font-weight: 600;
+    padding: 1rem 2rem; 
+    border-radius: 10px; 
+    border: solid 3px darkgreen; 
+}
+
+.graph button:hover{
+    background-color: rgba(0, 128, 0, .8);
+}
+
+.graph button:active{
+    scale: .98; 
+}
+.graph[data-open="false"] > img{
+    display: none; 
+}
